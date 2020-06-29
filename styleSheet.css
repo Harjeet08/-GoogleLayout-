@@ -1,54 +1,85 @@
-*{
 
-}
 .container{
-width: auto;
+
 }
 .box1{
     position: relative;
     left: 85%;
     margin-top: 2px;
 }
+.img{
+    border-radius: 100%;
+}
 .gmail{
-    padding-left: 5px;
+    padding-left: 10px;
     padding-top: 2px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 10px;    
 }
 .imageIcon{
-    padding-right: 5px;
+    padding-right: 28px;
     padding-top: 10px;
+    position: relative;
+    bottom: 10px;
 }
 .googleImage{
-    border-radius: 50%;
+    border-radius: 100%;
     margin-left: 400px;
-  
+    position: relative;
+    top: 14px;
+    padding-right: 10px;
+    margin-bottom: 21px;
+}
+.icon{
+    position: relative;
+    right: 16px;
 }
 .box2{
     border: 0.5px black;
     height: 50px;
     margin-top: 40px;
     width: 700px;
-    margin-left: 300px;
+    margin-left: 334px;
+
 }
 .searchBox{
     border: 0.5px solid black;
     height: 50px;
     width: 700px;
-    margin-top: 10px;      
+  margin: auto;
+    border-radius: 50px;
 }
 .search{
     width: 60px;
-    height: 20px;
+    height: 30px;
     padding-top: 2px;
-    padding-right: 100px;
+    padding-right: 300px;
     padding-bottom: 2px;
-    padding-left: 50px;
+    padding-left: 300px;
+
 }
 .feeling
 {
     width: 60px;
-    padding-left: 50px;
-    height: 40px;
+    padding-left: 400px;
+    height: 30px;
     padding-top: 2px;
-    padding-right: 100px;
+    padding-right: 400px;
     padding-bottom: 2px;   
+}
+.searchButton{
+   width: 152px; 
+   height: 41px;
+   position: relative;
+   right: 167px;
+ 
+}
+.feelingButton{
+    width: 152px; 
+    height: 41px;
+    position: relative;
+    bottom: 40px;
+    position: relative;
+    right: 49px;
 }
